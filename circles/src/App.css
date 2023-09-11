@@ -1,0 +1,28 @@
+/* src/App.css */
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgray;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f44336; /* Cor de fundo vermelha */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #d32f2f; /* Cor de fundo vermelha mais escura no hover */
+}
+
+button:disabled {
+  background-color: #ccc; /* Cor de fundo cinza para o botão desabilitado */
+  cursor: not-allowed; /* Altera o cursor para "não permitido" quando desabilitado */
+}
